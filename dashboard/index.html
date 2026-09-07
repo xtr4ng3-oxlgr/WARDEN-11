@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>WARDEN-11 Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">WARDEN-11</div>
+  <div class="sub">Authorized Cyber Patrol Workbench</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>Patrol the surface. Protect the source.</h1>
+      <p>Load a generated WARDEN-11 JSON report to review web posture, local secrets, password hygiene and hash inventory.</p>
+    </div>
+    <div class="score">
+      <span id="score">--</span>
+      <small>risk score</small>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Load report JSON</h2>
+    <input type="file" id="file" accept=".json">
+  </section>
+
+  <section class="grid">
+    <div class="card"><h2>Summary</h2><pre id="summary">No report loaded.</pre></div>
+    <div class="card"><h2>Findings</h2><pre id="findings">-</pre></div>
+    <div class="card"><h2>Web Surface</h2><pre id="web">-</pre></div>
+    <div class="card"><h2>Secrets</h2><pre id="secrets">-</pre></div>
+    <div class="card"><h2>Password Hygiene</h2><pre id="passwords">-</pre></div>
+    <div class="card"><h2>Hash Inventory</h2><pre id="hashes">-</pre></div>
+  </section>
+</main>
+
+<footer>xtr4ng3 · WARDEN-11 · authorized use only</footer>
+<script src="app.js"></script>
+</body>
+</html>
