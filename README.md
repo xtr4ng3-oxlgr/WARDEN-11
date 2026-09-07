@@ -1,5 +1,5 @@
 # WARDEN-11
-
+![Build](https://github.com/xtr4ng3-oxlgr/warden-11/actions/workflows/build.yml/badge.svg)
 <img width="1672" height="941" alt="warden-11" src="https://github.com/user-attachments/assets/d429e50c-55a8-4d14-9177-0cddbd297f44" />
 
 **WARDEN-11** es una mesa de trabajo de ciberpatrullaje autorizado para revisión defensiva de superficie web, detección local de secretos, higiene de contraseñas, inventario de hashes y generación de reportes estructurados.
