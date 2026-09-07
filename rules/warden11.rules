@@ -1,0 +1,8 @@
+# WARDEN-11 rules
+# Defensive triage rules for authorized patrol.
+
+WEB_COMMON_PATHS = /robots.txt, /sitemap.xml, /security.txt, /.well-known/security.txt, /.env, /.git/config, /backup.zip, /config.json, /phpinfo.php
+SECRET_FILE_EXTENSIONS = env, json, yaml, yml, toml, ini, conf, config, txt, md, py, js, ts, php, java, kt, rs, go, cs
+MAX_FILE_MB = 8
+WEB_TIMEOUT_SECONDS = 10
+WEB_RATE_LIMIT_MS = 650

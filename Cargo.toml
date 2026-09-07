@@ -1,0 +1,28 @@
+[package]
+name = "warden11"
+version = "1.0.0"
+edition = "2021"
+authors = ["xtr4ng3"]
+description = "Authorized cyber patrol workbench for web surface review, local secret detection, password hygiene, hash inventory and defensive reports."
+license = "MIT"
+repository = "https://github.com/xtr4ng3/warden-11"
+keywords = ["cybersecurity", "defensive-security", "secrets", "web-security", "sarif"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.5", features = ["derive"] }
+regex = "1.11"
+reqwest = { version = "0.12", features = ["blocking", "rustls-tls"], default-features = false }
+rusqlite = { version = "0.32", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+url = "2.5"
+walkdir = "2.5"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
