@@ -230,6 +230,8 @@ No incluye:
 # Licencia
 
 <img width="300" height="159" alt="xtr4ng3" src="https://github.com/user-attachments/assets/f2a8ea90-7721-42cc-b9cc-651696536d55" />
+
+
 **xtr4ng3**
 
 MIT.
