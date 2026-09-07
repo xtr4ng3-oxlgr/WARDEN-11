@@ -1,6 +1,6 @@
 # WARDEN-11
 
-<img width="1672" height="941" alt="w11" src="https://github.com/user-attachments/assets/f954fdd5-a260-4181-886d-1ab1cc6df4fb" />
+<img width="1672" height="941" alt="warden-11" src="https://github.com/user-attachments/assets/d429e50c-55a8-4d14-9177-0cddbd297f44" />
 
 **WARDEN-11** es una mesa de trabajo de ciberpatrullaje autorizado para revisión defensiva de superficie web, detección local de secretos, higiene de contraseñas, inventario de hashes y generación de reportes estructurados.
 
@@ -231,8 +231,7 @@ No incluye:
 
 # Licencia
 
-<img width="300" height="159" alt="giphy (25)" src="https://github.com/user-attachments/assets/021720ff-3aec-4916-9a93-25d47afd7d97" />
-
+<img width="300" height="159" alt="xtr4ng3" src="https://github.com/user-attachments/assets/f2a8ea90-7721-42cc-b9cc-651696536d55" />
 **xtr4ng3**
 
 MIT.
