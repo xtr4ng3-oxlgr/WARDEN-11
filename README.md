@@ -4,8 +4,6 @@
 
 **WARDEN-11** es una mesa de trabajo de ciberpatrullaje autorizado para revisión defensiva de superficie web, detección local de secretos, higiene de contraseñas, inventario de hashes y generación de reportes estructurados.
 
-Creado por **xtr4ng3**.
-
 ---
 
 ## Propósito
